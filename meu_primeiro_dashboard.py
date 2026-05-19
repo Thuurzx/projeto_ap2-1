@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #gravando o excel em uma variaveldf
 df = pd.read_excel("planilhao.xlsx", sheet_name= "Sheet1")
 #titulo do dashboard
-st.header("Meu Dashboard")
+st.header("Meu Dashboard Alterado por ARTHUR")
 menu = st.tabs(["Tabela", "Gráficos de Barras", "Gráficos de Setores"])
 with menu[0]:
     #expondo o df no dashboard
